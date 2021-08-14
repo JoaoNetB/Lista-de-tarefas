@@ -91,3 +91,108 @@ img:hover {
     margin-left: 20px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 990px) {
+
+    .newItem {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    #contentItem {
+
+        width: 500px;
+    }
+
+    .desItem {
+
+        width: 500px;
+    }
+
+    .line {
+
+        width: 100%;
+        height: 5px;
+        margin-top: 12px;
+        background-color: #EBEBEB;
+    }
+    
+}
+
+@media screen and (max-width: 730px) {
+
+    #contentItem {
+
+        width: 250px;
+        height: 40px;
+        font-size: 12px;
+        padding-left: 2px;
+    }
+
+    .desItem {
+
+        width: 250px;
+        height: 40px;
+    }
+
+    .desItem p {
+
+        font-size: 12px;
+        margin-left: 4px;
+        padding-right: 10px;
+        word-wrap: break-word;
+        width: 250px;
+    }
+
+    .line {
+
+        width: 100%;
+        height: 5px;
+        margin-top: 12px;
+        background-color: #EBEBEB;
+    }
+
+    .newItem {
+
+        justify-content: center;
+
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+    }
+
+    img {
+
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+
+    #contentItem {
+
+        width: 200px;
+    }
+
+    .desItem {
+
+        width: 200px;
+
+        
+    }
+
+    .desItem p {
+
+
+        padding-right: 60px;
+        word-wrap: break-word;
+        width: 250px;
+    }
+}
